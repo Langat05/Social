@@ -13,6 +13,8 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+import bootstrap4 as bootstrap4
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -133,4 +135,4 @@ MEDIA_URL = '/media/'
 LOGIN_REDIRECT_URL = 'home'
 LOGIN_URL = 'login'
 
-CRISPY_TEMPLATE_PACK = ‘bootstrap4’
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
